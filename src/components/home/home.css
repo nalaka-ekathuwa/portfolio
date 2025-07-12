@@ -29,10 +29,27 @@
     margin-bottom: var(--mb-0-25);
 }
 
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(15deg); }
+  30% { transform: rotate(-10deg); }
+  45% { transform: rotate(15deg); }
+  60% { transform: rotate(-5deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
 .home__hand{
     width: 38px;
     height: 38px;
     margin-left: 0.4rem;
+    /* display: inline-block; */
+    transform-origin: bottom center;
+    transition: transform 0.3s ease;
+}
+
+.home__hand:hover {
+  animation: wave 1s ease-in-out;
 }
 
 .home__subtitle{
