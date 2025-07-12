@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.10063b91.css",
-    "main.js": "/portfolio/static/js/main.addb77f2.js",
+    "main.css": "/portfolio/static/css/main.3079dd95.css",
+    "main.js": "/portfolio/static/js/main.79b71300.js",
     "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/t3.jpg": "/portfolio/static/media/t3.5ca576cc45fd52bc1df4.jpg",
+    "static/media/t4.jpg": "/portfolio/static/media/t4.2597c239a42d75fbceb5.jpg",
+    "static/media/t1.png": "/portfolio/static/media/t1.a2275dfc2bcd0acc1bed.png",
     "static/media/about.jpg": "/portfolio/static/media/about.226882dab30b2de5e283.jpg",
+    "static/media/t2.jpg": "/portfolio/static/media/t2.ae5c8fcaf116f8aa18d2.jpg",
     "static/media/CV_Nalaka_Ruberu.pdf": "/portfolio/static/media/CV_Nalaka_Ruberu.94724fa30eb1dcbe014e.pdf",
     "static/media/testimonial3.png": "/portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/testimonial2.png": "/portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/portfolio/index.html",
-    "main.10063b91.css.map": "/portfolio/static/css/main.10063b91.css.map",
-    "main.addb77f2.js.map": "/portfolio/static/js/main.addb77f2.js.map",
+    "main.3079dd95.css.map": "/portfolio/static/css/main.3079dd95.css.map",
+    "main.79b71300.js.map": "/portfolio/static/js/main.79b71300.js.map",
     "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10063b91.css",
-    "static/js/main.addb77f2.js"
+    "static/css/main.3079dd95.css",
+    "static/js/main.79b71300.js"
   ]
 }
