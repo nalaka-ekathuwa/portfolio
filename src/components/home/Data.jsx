@@ -60,7 +60,7 @@ const Data = () => {
       <p className="home__description">
         Results-driven IT professional with a Bachelor's degree in Information
         Technology and over 6 years of hands-on experience in web application
-        development. P
+        development.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

@@ -19,11 +19,6 @@ const Contact = () => {
               <span className="contact__card-data">
                 nalakadinesh123@gmail.com
               </span>
-
-              <a href="" className="contact__button">
-                Write me{""}
-                <i className="bx bx-right-arrow-alt contact__card-icon"></i>
-              </a>
             </div>
 
             <div className="contact__card">
@@ -32,22 +27,14 @@ const Contact = () => {
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">+358 44 9325319</span>
 
-              <a href="" className="contact__button">
-                Write me{""}
-                <i className="bx bx-right-arrow-alt contact__card-icon"></i>
-              </a>
             </div>
 
             <div className="contact__card">
               <i className="bx bx-chat contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.123</span>
+              <h3 className="contact__card-title">Messege</h3>
+              <span className="contact__card-data">+358 44 9325319</span>
 
-              <a href="" className="contact__button">
-                Write me{""}
-                <i className="bx bx-right-arrow-alt contact__card-icon"></i>
-              </a>
             </div>
           </div>
         </div>
