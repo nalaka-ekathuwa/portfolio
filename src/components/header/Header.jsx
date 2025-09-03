@@ -20,36 +20,36 @@ const Header = () => {
                     <ul className="nav__list grid">
                         <li className="nav__item">
                             <a href="#home" rel="noopener noreferrer" onClick={()=>setActiveNav('#home')} 
-                            className={activeNav === "#home" ? "nav__link active-link" :"nav__link"}>
+                            className={activeNav === "#home" ? "nav__link burnHover active-link" :"burnHover nav__link"}>
                                 <i className="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#about" rel="noopener noreferrer" className="nav__link">
-                                <i className="uil uil-user  nav__icon"></i> About
+                                <i className="uil uil-user burnHover nav__icon"></i> About
 
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" rel="noopener noreferrer" className="nav__link">
-                                <i className="uil uil-file-alt nav__icon"></i> Skills
+                                <i className="uil uil-file-alt burnHover nav__icon"></i> Skills
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#services" rel="noopener noreferrer" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Portfolio
+                                <i className="uil uil-briefcase-alt burnHover nav__icon"></i> Portfolio
 
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#qualification" rel="noopener noreferrer" className="nav__link">
-                                <i className="uil uil-scenery nav__icon"></i> Pedagogy
+                                <i className="uil uil-scenery burnHover nav__icon"></i> Pedagogy
 
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" rel="noopener noreferrer" className="nav__link">
-                                <i className="uil uil-message nav__icon"></i> Contact
+                                <i className="uil uil-message burnHover nav__icon"></i> Contact
 
                             </a>
                         </li>

@@ -1,7 +1,19 @@
-import React from "react";
-import './contact.css';
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import "./contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_p409rbv", "template_5xm4wth", form.current, {
+        publicKey: "AcPAP665dr4eFNsue",
+      })
+      e.target.reset()
+  };
   return (
     <section className="contact section" id="contact">
       <div className="section__title">Get in touch</div>
@@ -12,7 +24,6 @@ const Contact = () => {
           <h3 className="contact__title">Talk me</h3>
 
           <div className="contact__info">
-            <a href="mailto=nalakadinesh123@gmail.com" rel="noopener noreferrer" target="_blank" >
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
@@ -21,14 +32,12 @@ const Contact = () => {
                 nalakadinesh123@gmail.com
               </span>
             </div>
-            </a>
 
             <div className="contact__card">
               <i className="bx bx-phone-call contact__card-icon"></i>
 
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">+358 44 9325319</span>
-
             </div>
 
             <div className="contact__card">
@@ -36,7 +45,6 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Messege</h3>
               <span className="contact__card-data">+358 44 9325319</span>
-
             </div>
           </div>
         </div>
@@ -44,7 +52,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me</h3>
 
-          <form action="" className="contact__form">
+          <form action="" ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">
                 Name
@@ -71,9 +79,12 @@ const Contact = () => {
               <label htmlFor="" className="contact__form-tag">
                 Project
               </label>
-              <textarea name="project" id="" className="contact__form-input" defaultValue={"Write the project"} >
-                
-              </textarea>
+              <textarea
+                name="project"
+                id=""
+                className="contact__form-input"
+                defaultValue={"Write the project"}
+              ></textarea>
             </div>
 
             <button className="button button--flex">
@@ -96,7 +107,6 @@ const Contact = () => {
                 ></path>
               </svg>
             </button>
-
           </form>
         </div>
       </div>

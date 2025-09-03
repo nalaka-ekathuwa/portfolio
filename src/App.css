@@ -150,16 +150,48 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  color: var(--container-color);
+  cursor: pointer;
+
+  /* Gradient background setup */
+  background: linear-gradient(
+    to right,
+    var(--title-color) 0%,
+    rgb(0, 225, 255) 50%,
+    rgb(0, 0, 255) 100%
+  );
+  background-size: 200% 100%;
+  background-position: left center;
+
+  transition: background-position 0.6s ease;
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-position: right center; /* sweep effect */
 }
+
+/* burnHover.module.css */
+.burnHover {
+  background: linear-gradient(
+    to right,
+    var(--title-color) 0%,
+    rgb(0, 225, 255) 50%,
+    rgb(0, 0, 255) 100%
+  );
+  background-size: 200% 100%;
+  background-position: left center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.6s ease;
+}
+
+.burnHover:hover {
+  background-position: right center;
+}
+
 
 .button__icon {
   margin-left: var(--mb-0-5);
