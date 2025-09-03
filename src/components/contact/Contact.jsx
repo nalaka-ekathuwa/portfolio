@@ -12,6 +12,7 @@ const Contact = () => {
           <h3 className="contact__title">Talk me</h3>
 
           <div className="contact__info">
+            <a href="mailto=nalakadinesh123@gmail.com">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
@@ -20,6 +21,7 @@ const Contact = () => {
                 nalakadinesh123@gmail.com
               </span>
             </div>
+            </a>
 
             <div className="contact__card">
               <i className="bx bx-phone-call contact__card-icon"></i>
