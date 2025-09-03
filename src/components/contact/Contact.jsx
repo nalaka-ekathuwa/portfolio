@@ -12,7 +12,7 @@ const Contact = () => {
           <h3 className="contact__title">Talk me</h3>
 
           <div className="contact__info">
-            <a href="mailto=nalakadinesh123@gmail.com">
+            <a href="mailto=nalakadinesh123@gmail.com" rel="noopener noreferrer" target="_blank" >
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 

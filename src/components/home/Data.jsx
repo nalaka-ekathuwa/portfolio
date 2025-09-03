@@ -62,7 +62,7 @@ const Data = () => {
         Technology and over 6 years of hands-on experience in web application
         development.
       </p>
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" rel="noopener noreferrer" className="button button--flex">
         Say Hello
         <svg
           className="button__icon"

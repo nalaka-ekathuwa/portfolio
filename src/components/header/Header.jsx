@@ -14,41 +14,41 @@ const Header = () => {
   return (
      <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">NALAKA</a>
+                <a href="index.html" rel="noopener noreferrer" className="nav__logo">NALAKA</a>
 
                 <div className={Toggle? "nav__menu show-menu":"nav__menu"}>
                     <ul className="nav__list grid">
                         <li className="nav__item">
-                            <a href="#home" onClick={()=>setActiveNav('#home')} 
+                            <a href="#home" rel="noopener noreferrer" onClick={()=>setActiveNav('#home')} 
                             className={activeNav === "#home" ? "nav__link active-link" :"nav__link"}>
                                 <i className="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#about" className="nav__link">
+                            <a href="#about" rel="noopener noreferrer" className="nav__link">
                                 <i className="uil uil-user  nav__icon"></i> About
 
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#skills" className="nav__link">
+                            <a href="#skills" rel="noopener noreferrer" className="nav__link">
                                 <i className="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#services" className="nav__link">
+                            <a href="#services" rel="noopener noreferrer" className="nav__link">
                                 <i className="uil uil-briefcase-alt nav__icon"></i> Portfolio
 
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#qualification" className="nav__link">
+                            <a href="#qualification" rel="noopener noreferrer" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i> Pedagogy
 
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link">
+                            <a href="#contact" rel="noopener noreferrer" className="nav__link">
                                 <i className="uil uil-message nav__icon"></i> Contact
 
                             </a>

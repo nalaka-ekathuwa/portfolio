@@ -22,7 +22,7 @@ const About = () => {
             abilities, strong communication skills, and a collaborative approach
             to delivering high-quality software solutions.
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a download="" rel="noopener noreferrer" href={CV} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
